@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Cadastro de Aluno</title>
+
+</head>
+<body>
+    <form action="Cadastrar.php " method="post">
+    <h3 align="center">Cadastro de Aluno</h3>
+<table>
+    <tr>
+    <td>Nome: </td>
+    <td><input type="text" name="nome"></td>
+    </tr>
+
+    <tr>
+        <td>Endereço: </td>
+        <td><input type="text" name="endereco"></td>
+        </tr>
+    <tr>
+        <td>Cidade: </td>
+        <td><input type="text" name="cidade"></td>
+        </tr>
+    <tr>
+        <td>Telefone: </td>
+        <td><input type="text" name="telefone"></td>
+        </tr>
+    <tr>
+        <td>Estado: </td>
+        <td>
+            <select name="estado" id="estado">
+                <option value="" selected>Selecione um Estado</option>
+                <option value="MG"> Minas Gerais</option>
+                <option value="SP"> Sao paulo</option>
+                <option value="GO"> Goias</option>
+                <option value="TO"> Tocantins</option>
+                <option value="BA"> Bahia</option>
+            </select>
+        </td>
+        </tr>
+</table>
+<input type="submit" value="Enviar"></input>
+
+</form>
+</body>
+</html>
